@@ -27,6 +27,11 @@
     trigger-period-ms = <16>;
 };
 
+// Modify default flavor here
+&mt {
+    flavor = "tap-preferred";
+    tapping-term-ms = <200>;
+};
 
 / {
 
